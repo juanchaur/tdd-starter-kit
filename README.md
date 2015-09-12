@@ -1,7 +1,7 @@
 TDD Starter Kit
 =============
 
-This is a quick tdd starter-kit to start developing with a TDD approach. It uses (jasmine)[http://jasmine.github.io/] and native javascript.
+This is a quick tdd starter-kit to start developing with a TDD approach. It uses [jasmine](http://jasmine.github.io/) and native javascript.
 
 You can find a grunt task to run your test on terminal with PhantomJS or run it on your browser
 
