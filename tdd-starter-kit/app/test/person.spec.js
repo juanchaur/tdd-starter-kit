@@ -13,8 +13,8 @@ describe('Class Person', function() {
 	});
 
 	it('Should have a public API', function() {
-		expect(typeof testee.getName).toEquals('function');
-		expect(typeof testee.getAge).toEquals('function');
+		expect(typeof testee.getName).toEqual('function');
+		expect(typeof testee.getAge).toEqual('function');
 	});
 
 	it('getName should return a proper String', function() {
