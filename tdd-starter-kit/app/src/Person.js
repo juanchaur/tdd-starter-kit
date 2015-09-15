@@ -1,4 +1,4 @@
-(function(window, document, undefined) {
+!(function(window, document, undefined) {
 	'use strict';
 
 	function Person(name, age) {
@@ -12,6 +12,13 @@
 
 	Person.prototype.getAge = function() {
 		return this._age;
+	};
+
+	Person.prototype.getPersonalInformation = function() {
+		return {
+			name: this.getName(),
+			age: this.getAge()
+		};
 	};
 
 	//To export it for testing
